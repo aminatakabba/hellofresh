@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Agrandir;
+    src: url('https://www.behance.net/gallery/74042877/Agrandir-Typeface-Free-Fonts-Variable-Font/modules/503136219');
+}
+.banner {
+    height: 700px;
+    background-image: url('../img/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px !important;
+    display: flex;
+    justify-content: center;
+}
+.banner__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner_contentItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.banner_contentOne, h1 {
+    font-family: Agrandir, Verdana, Geneva, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+.banner_contentTwo {
+    width: 500px;
+    text-align: center;
+}
+.banner_contentTwo, p {
+    font-family: 'Source Sans Pro', 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 18px;
+}
+.viewButton {
+    color: white;
+    background-color: #067A46;
+    border-radius: 5px;
+    border-color: #067A46;
+    height: 40px;
+    font-size: 17px;
+    width: 150px;
+}
+.banner_contentOne > span {
+    border-bottom: 1px solid black;
+    width: 20px;
+}
+button, .scroll-downButton {
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    color: #067A46;
+    border-color: #067A46;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
