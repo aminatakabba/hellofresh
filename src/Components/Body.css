@@ -1,0 +1,31 @@
+
+.bodyItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bodyButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bodyButton > button {
+    width: 200px;
+    border-radius: 5px;
+    background-color: transparent;
+}.bodyText {
+    text-align: center;
+}
+.bodyText > p {
+    display: inline;
+    font-size: 17px;
+    padding: 10px;
+    color: grey;
+    font-family: Agrandir, Verdana, Geneva, sans-serif;
+}
+.bodyText > h1 {
+    font-family: Agrandir, Verdana, Geneva, sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+}

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Agrandir;
+    src: url('https://www.behance.net/gallery/74042877/Agrandir-Typeface-Free-Fonts-Variable-Font/modules/503136219');
+}
+.bodyComponents {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+.bodyComponents > img {
+    max-width: 400px;
+    max-height: 400px;
+}
+.bodyComponents > h1 {
+    font-family: Agrandir, Verdana, Geneva, sans-serif;
+    font-size: 20px;
+}
+.bodyComponents > p {
+    font-family: Agrandir, Verdana, Geneva, sans-serif;
+    font-size: 15px;
+}
