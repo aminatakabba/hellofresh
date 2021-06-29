@@ -1,6 +1,6 @@
 <h1>Hello Fresh UI Clone React App</h1>
-<img src="./src/img/one">
-<img src="./src/img/two">
+<img src="./src/img/one.png">
+<img src="./src/img/two.png">
 
 # Getting Started with Create React App
 
